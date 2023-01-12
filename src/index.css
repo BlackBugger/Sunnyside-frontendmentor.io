@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: 'barlow',serif;
+  }
+  html{
+    scroll-behavior: smooth;
+    overflow-y: hidden;
+    position: absolute;
+  }
+}

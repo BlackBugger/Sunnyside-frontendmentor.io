@@ -1,0 +1,37 @@
+
+
+@media (max-width: 640px) {
+    .navbar {
+        background: white;
+        position: absolute;
+        top: 120px;
+        left: 30px;
+        right: 30px;
+        align-items: center;
+
+        gap: 35px;
+        padding: 40px;
+        box-shadow: 0 10px 40px hsla(0,0%,0%,0.1);
+        transform: scale(0.9);
+        transform-origin: top right;
+        opacity: 0;
+        pointer-events: none;
+        transition: all .5s ease-in-out;
+    }
+
+    .navbar.active{
+        transform:scale(1);
+        opacity: 1;
+        pointer-events: all;
+    }
+
+    .navbar::before {
+        content: "";
+        position: absolute;
+        top: -19px;
+        right: -20px;
+        border: 20px solid transparent;
+        border-left-color: white;
+        transform: rotate(45deg);
+    }
+}
