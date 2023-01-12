@@ -11,4 +11,41 @@
     overflow-y: hidden;
     position: absolute;
   }
+  .underline-text{
+    position: relative;
+    text-decoration: none;
+    z-index: 1;
+  }
+
+  .underline-text:hover::after{
+    opacity: 1;
+  }
+  .underline-yellow::after {
+   content: "";
+   position: absolute;
+   top:100%;
+   left:50%;
+   transform: translate(-50%,-8px);
+   background: yellow;
+   width: calc(100% + 20px);
+   height: 10px;
+   border-radius: 10px;
+   opacity: .3;
+   z-index: -1;
+   transition: all 1s ease-in-out;
+  }
+  .underline-pink::after {
+   content: "";
+   position: absolute;
+   top:100%;
+   left:50%;
+   transform: translate(-50%,-8px);
+   background: rgb(255, 115, 100);
+   width: calc(100% + 20px);
+   height: 10px;
+   border-radius: 10px;
+   opacity: .3;
+   z-index: -1;
+   transition: all .9s ease;
+  }
 }

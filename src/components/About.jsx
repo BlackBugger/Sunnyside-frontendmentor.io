@@ -11,7 +11,7 @@ const About = () => {
                             <h2 className='font-fraunces md:text-4xl'>Transform your Brand</h2>
                             <p className='text-gray-500'>We are a full-service creative agency specializing in helping brands grow fast. Engage your clients
                                 through compelling visuals that do most of the marketing for you</p>
-                            <button className='font-fraunces'>LEARN MORE</button>
+                            <button className='font-fraunces underline-text underline-yellow'>LEARN MORE</button>
                         </div>
                     </div>
                     <div className='w-full  md:w-2/4'>
@@ -29,7 +29,7 @@ const About = () => {
                             <h2 className='font-fraunces text-3xl'>Stand out to the right audience</h2>
                             <p className='text-gray-500'>Using a collaborative formula of designers, researchers, photographers, videographers,
                                 and copywriters, we'll build and extend your brand in digital places</p>
-                            <button className='font-fraunces'>LEARN MORE</button>
+                            <button className='font-fraunces underline-text underline-pink'>LEARN MORE</button>
                         </div>
                     </div>
                 </div>
